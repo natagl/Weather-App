@@ -45,9 +45,9 @@ const WeatherCard = ({ temp, condition, city, country }) => {
 
   return (
     <Card>
-      <Location city={city} country ={country} />
+      <Location city={city} country={country} />
       <Icon condition={condition} />
-      <Condition condition={condition} temp = {temp}/>
+      <Condition condition={condition} temp={temp}/>
     </Card>
   );
 };
